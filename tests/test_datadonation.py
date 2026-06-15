@@ -235,8 +235,8 @@ class TestDataDonation:
             '"WanDSLInterfaceConfigAVM", "WanPPPConnectionStatus", "WanCommonInterfaceConfig", '
             '"WanCommonInterfaceDataBytes", "WanCommonInterfaceByteRate", '
             '"WanCommonInterfaceDataPackets", "WlanConfigurationInfo", "WlanAssociatedDevices", '
-            '"HostInfo", '
-            '"HomeAutomation"], "action_results": {"Hosts1": {"GetHostNumberOfEntries": '
+            '"MeshTopology", "HostInfo", "HomeAutomation"], "action_results": {"Hosts1": '
+            '{"GetHostNumberOfEntries": '
             '{"NewHostNumberOfEntries": "3"}}}}}',
             headers={"Content-Type": "application/json"},timeout=10,
         )
